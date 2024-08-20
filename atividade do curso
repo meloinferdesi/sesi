@@ -1,0 +1,26 @@
+programa {
+real salario
+real comissao
+real resultado
+real comissaol
+real desconto
+
+funcao inicio() {
+escreva ("Digite o salário R$ ")
+escreva ("\n")
+leia (salario)
+escreva ("Digite com a comissão ")
+escreva ("\n")
+leia (comissao)
+comissaol-comissao/100
+escreva ("Digite o valor de esconto R$ ")
+escreva ("\n")
+leia (desconto)
+resultado-salario comissaol+salario-(desconto)
+escreva ("\n")
+escreva ("O valor a receber é R$", resultado)
+escreva ("\n")
+
+}
+
+}
